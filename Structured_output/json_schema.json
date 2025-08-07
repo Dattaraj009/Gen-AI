@@ -1,0 +1,23 @@
+{
+    "title":"student",
+    "discription":"Schema about students",
+    "type":"object",
+    "properties":{
+        "name":"string",
+        "age":{
+            "type":"integer",
+            "description":"Age of the student"
+        },
+        "grade":{
+            "type":"string",
+            "description":"Grade of the student"
+        },
+        "subjects":{
+            "type":"array",
+            "items":{
+                "type":"string"
+            },
+            "description":"List of subjects the student is enrolled in"
+        }
+    }
+}
